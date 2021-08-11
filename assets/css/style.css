@@ -1,0 +1,20 @@
+.navbar {
+    background: none;
+ }
+  .color-hr{
+    background-color: #00a1ad;
+}
+
+body{
+    background-color: black !important; 
+}
+
+footer i{
+display: inline-block;
+
+}
+.iconos{
+    padding: 8.12rem;
+}
+
+
