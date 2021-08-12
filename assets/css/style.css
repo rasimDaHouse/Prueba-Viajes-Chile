@@ -1,20 +1,26 @@
-.navbar {
-    background: none;
- }
+
   .color-hr{
-    background-color: #00a1ad;
+    border-bottom: 3px  solid #00a1ad;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    margin-bottom: 2rem;
 }
 
 body{
     background-color: black !important; 
 }
 
-footer i{
-display: inline-block;
 
+.navbar-nav{
+    font-size: 1.25rem;
 }
+
+
 .iconos{
-    padding: 8.12rem;
+    display: inline-flex;
 }
 
-
+.imagen{
+    width: 2rem;
+    padding-bottom: 0.3125rem;
+}
