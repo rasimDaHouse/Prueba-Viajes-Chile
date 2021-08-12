@@ -26,9 +26,9 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto active ">
           <a class="nav-item nav-link text-light    " href="#">Inicio <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link text-white-50 " href="#">Recetas</a>
-          <a class="nav-item nav-link text-white-50 " href="#">Nosotros</a>
-          <a class="nav-item nav-link text-white-50 " href="#">Contacto</a>
+          <a class="nav-item nav-link text-white-50 " href="#empresa">Quienes somos</a>
+          <a class="nav-item nav-link text-white-50 " href="#destacados">Destacados</a>
+          <a class="nav-item nav-link text-white-50 " href="#contacto">Contacto</a>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
   </header>
 
   <section class="d-sm-none d-md-block">
-    <h2 class="text-center mt-5 py-3">¿Quienes somos?</h2>
+    <h2 id="empresa" class="text-center mt-5 py-3">¿Quienes somos?</h2>
     <hr class="color-hr">
     <div class="container">
       <div class="row">
@@ -119,7 +119,7 @@
   </section>
 
   <section>
-    <h2 class="text-center py-3">
+    <h2 id="destacados" class="text-center py-3">
       Destacados
     </h2>
     <hr class="color-hr">
@@ -170,7 +170,7 @@
   </section>
 
   <section>
-    <h2 class="text-center font-weight-4 py-3">Contacto</h2>
+    <h2 id="contacto" class="text-center font-weight-4 py-3">Contacto</h2>
     <hr class="color-hr">
     <div class="container pb-5">
       <div class="typeform-widget" data-url="https://form.typeform.com/to/Zgk2uAoP?typeform-medium=embed-snippet"
@@ -185,10 +185,14 @@
       <div class="row">
         <div class="col-sm-12 col-md-8 text-sm-center text-md-left">VIAJES CHILE</div>
         <div class="col-sm-12 col-md-4 text-sm-center ">
-          <i class="fab fa-github-square"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter-square"></i>
-          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-github-square" data-toggle="tooltip"
+          data-placement="top" title="Git-Hub"></i>
+          <i class="fab fa-linkedin" data-toggle="tooltip"
+          data-placement="top" title="Linkedin"></i>
+          <i class="fab fa-twitter-square" data-toggle="tooltip"
+          data-placement="top" title="Twitter"></i>
+          <i class="fab fa-facebook-square" data-toggle="tooltip"
+          data-placement="top" title="Facebook"></i>
         </div>
       </div>
     </div>
@@ -201,6 +205,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
 
 </body>
 
