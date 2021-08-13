@@ -1,26 +1,27 @@
-
-  .color-hr{
-    border-bottom: 3px  solid #00a1ad;
-    margin-left: 6.25rem;
-    margin-right: 6.25rem;
-    margin-bottom: 2rem;
+.color-hr {
+  border-bottom: 3px solid #00a1ad;
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+  margin-bottom: 2rem;
 }
 
-body{
-    background-color: black !important; 
+body {
+  background-color: black !important;
 }
 
-
-.navbar-nav{
-    font-size: 1.25rem;
+.navbar-nav {
+  font-size: 1.25rem;
 }
 
-
-.iconos{
-    display: inline-flex;
+.iconos {
+  display: inline-flex;
 }
 
-.imagen{
-    width: 2rem;
-    padding-bottom: 0.3125rem;
+.imagen {
+  width: 2rem;
+  padding-bottom: 0.3125rem;
+}
+
+.menu1 {
+  background-color: rgba(0, 0, 0, 0.5);
 }
